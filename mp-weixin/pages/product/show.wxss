@@ -1,0 +1,129 @@
+
+.kslist{
+		padding-left: 0;
+}
+.flcart {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+    position: fixed;
+    left: 0rpx;
+    right: 0rpx;
+    bottom: 0rpx;
+    font-size: 29rpx;
+    line-height: 1.2;
+    border-top: 2rpx solid #eee;
+    background-color: #fff;
+    text-align: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-align-content: center;
+	    -ms-flex-line-pack: center;
+	        align-content: center;
+}
+.flcart-f1 {
+    width: 100rpx;
+    display: inline-block;
+    height: 92rpx;
+    line-height: 40rpx;
+	 
+	padding-bottom: 8rpx;
+	font-size: 29rpx;
+}
+.flcart-f2 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    height: 70rpx;
+    line-height:70rpx;
+    background-color: #f30;
+    color: #fff;
+    font-size: 29rpx;
+	border-radius: 20rpx;
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+	position: relative;
+	top: 16rpx;
+}
+.flcart-icon{
+	font-size: 32rpx;
+}
+.cBox-mask{
+	background-color: #333;
+    opacity: 0.2;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 998;
+}
+.cBox{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	background-color: #fff;
+	border: 1rpx solid #eee;
+	padding: 20rpx;
+	border-radius: 10rpx;
+}
+.cBox-close{
+	position: absolute;
+	right: 5rpx;
+	top: 5rpx;
+	font-family: iconfont;
+	width: 80rpx;
+	height: 80rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-align-content: center;
+	    -ms-flex-line-pack: center;
+	        align-content: center;
+	text-align: center;
+}
+.cBox-close:after{
+	content: "\E7E3";
+	font-size: 32rpx;
+}
+.kslist{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;		
+		-webkit-box-align: center;		
+		-webkit-align-items: center;		
+		    -ms-flex-align: center;		
+		        align-items: center;
+		padding-left: 10rpx;
+}
+.kslist-label{
+		margin-right: 6rpx;
+		color: #646464;
+}
+.kslist-item{
+		border: 1rpx solid #eee;
+		padding: 4rpx 8rpx;
+		margin-right: 10rpx;
+}
+.kslist-active{
+		color: #007AFF;
+}
+

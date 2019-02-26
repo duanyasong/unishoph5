@@ -1,0 +1,131 @@
+
+.flex{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+}
+.list-side {
+		position: fixed;
+		left: 0rpx;
+		top: 0rpx;
+		bottom: 132rpx;
+		width: 184rpx;
+		padding-top: 20rpx;
+		border-right: 2rpx solid #eee;
+		padding-left:10rpx;
+		text-align: center;
+}
+.list-side-item {
+		color: #707070;
+		margin-bottom: 22rpx;
+		padding-bottom: 22rpx;
+		border-bottom:1rpx solid #eee;
+		font-size: 36rpx;
+		display: block;
+}
+.list-side-item-active {
+		color: #ff842b;
+		border-left: 6rpx solid #ff842b;
+}
+.flex-main {
+ -webkit-box-flex: 1;
+ -webkit-flex: 1;
+     -ms-flex: 1;
+         flex: 1;
+ margin-left: 200rpx;
+}
+.prolist-item{
+  position: relative;
+  padding: 5rpx 10rpx 5rpx 0rpx;
+  border-bottom: 1rpx solid #e4e4e4;
+	margin-bottom: 5rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.prolist-img {
+  width: 110rpx;
+  height: 110rpx;
+  margin-right: 22rpx;
+}
+.prolist-flex-1 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.prolist-row{
+}
+.prolist-title {
+  height: 76rpx;
+  line-height: 76rpx;
+  font-size: 30rpx;
+  color: #333;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  margin-bottom: 12rpx;
+}
+.prolist-row-price {
+  line-height: 22rpx;
+  font-size: 32rpx;
+  margin-bottom: 20rpx;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.prolist-price{
+  color: #fa215f;
+  margin-right: 5rpx;
+  display: inline-block;
+}
+.prolist-cart{
+	padding-right: 5rpx;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.prolist-sold-num {
+  color: #999;
+  font-size: 12rpx;
+  display: inline-block;
+}
+.prolist-numbox{
+	float: right;
+	margin-right: 10rpx;
+}
+.prolist-buy-btn {
+  display: block;
+  height: 66rpx;
+  line-height: 66rpx;
+  text-align: center;
+  width: 66rpx;
+  background-color: #83c44e;
+  color: #fff;
+  border-radius: 50%;
+  float: right;
+  margin-right: 10rpx;
+  cursor: pointer;
+}
+.prolist-row-sold {
+  line-height: 30rpx;
+  height: 30rpx;
+  color: #aaa;
+}
+.prolist-market-price {
+  text-decoration: line-through;
+  color: #999;
+}
+
+

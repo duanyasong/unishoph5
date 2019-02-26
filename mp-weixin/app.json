@@ -1,0 +1,76 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/index",
+    "pages/user_address/my",
+    "pages/article/index",
+    "pages/article/show",
+    "pages/product/show",
+    "pages/category/index",
+    "pages/cart/index",
+    "pages/cart/buy",
+    "pages/user/index",
+    "pages/user/info",
+    "pages/user/user_head",
+    "pages/user/password",
+    "pages/user/paypwd",
+    "pages/register/index",
+    "pages/login/index",
+    "pages/login/findpwd",
+    "pages/order/confirm",
+    "pages/order/my",
+    "pages/order/show",
+    "pages/order/success",
+    "pages/notice/my",
+    "pages/comment/my",
+    "pages/coupon/my",
+    "pages/fav/my",
+    "pages/recharge/my",
+    "pages/recharge/index",
+    "pages/recharge/order",
+    "pages/pay_log/my",
+    "pages/user_address/add",
+    "pages/user_address/edit",
+    "pages/user_address/orderadd",
+    "pages/user/set",
+    "pages/search/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "微站云",
+    "navigationBarBackgroundColor": "#0faeff",
+    "backgroundColor": "#fbf9fe"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#555",
+    "selectedColor": "#0069CD",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/product/index",
+        "text": "分类",
+        "iconPath": "static/tabbar/product.png",
+        "selectedIconPath": "static/tabbar/product-active.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "iconPath": "static/tabbar/cart.png",
+        "selectedIconPath": "static/tabbar/cart-active.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "static/tabbar/user.png",
+        "selectedIconPath": "static/tabbar/user-active.png"
+      }
+    ]
+  }
+}

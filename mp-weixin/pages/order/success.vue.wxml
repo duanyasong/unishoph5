@@ -1,0 +1,1 @@
+<template name="15b7075b"><view class="_view 15b7075b"><view class="_view 15b7075b"><view class="_view 15b7075b pd-10 f18">下单成功，感谢您的支持</view><view bindtap="handleProxy" class="_view 15b7075b btn-row-submit" data-eventid="{{'15b7075b-0'}}" data-comkey="{{$k}}">返回首页</view></view></view></template>

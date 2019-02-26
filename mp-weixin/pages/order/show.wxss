@@ -1,0 +1,10 @@
+
+.statusBox{
+	background-color: #f17d30;
+	color: #fff;
+	padding: 20rpx;
+}
+.cl-e0{
+	color: #e0e0e0 ;
+}
+
